@@ -1,0 +1,150 @@
+#title {
+  background-color:#ff4c68;
+}
+/* .topz{
+  z-index: 0;
+  position: absolute;
+
+} */
+body{
+  font-family: 'Montserrat';
+}
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.5;
+  font-size: 4rem;
+  color: white;
+}
+.container-fluid{
+  padding:5% 15% 10%;
+}
+.navbar-brand{
+  margin-left: 0;
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 3rem;
+}
+.row{
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 30px;
+}
+
+#navbarNav{
+  margin-left: 25rem;
+}
+#heading{
+  padding-left: 0;
+}
+.nav-item{
+  margin: 0 1rem 0;
+
+}
+.nav-link{
+  padding: 0 5px 0;
+}
+/* dowloadbutton */
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+/* iconpoints */
+.hhh{
+  font-family: 'Montserrat-thin';
+  font-size: 2rem;
+  padding: 0;
+  text-align: center;
+}
+.spacepara{
+
+}
+.challenge:hover{
+  color: #ff4c68;
+}
+.challenge{
+  margin-left: 40%;
+  padding-bottom: 30px;
+}
+.pp{
+  text-align: center;
+}
+.imgg{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features{
+
+  background-color: #fff;
+  position: relative;
+}
+/* testimonials */
+#testimonials{
+  font-family: 'Montserrat Black 900';
+  background-color:#ff4c68;
+  color: #fff;
+  text-align: center;
+}
+.testimonal-img{
+  border-radius: 70%;
+  margin:70px;
+  width: 20%;
+  text-align: center;
+}
+.carousel-item{
+    padding: 3% 15%;
+}
+/* press */
+#press{
+  background-color:#ff4c68;
+  text-align: center;
+}
+.press-logo{
+  width: 300px;
+  padding:20px 30px 100px;
+}
+/* pricingsection */
+#pricing{
+  padding: 5% 4%;
+  text-align: center;
+}
+.pricing-section{
+  padding: 20px;
+}
+/* mediaquery */
+@media (max-width:1024){
+  .imgg{
+    position:static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+#cta{
+  margin:0;
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+
+}
+.bottom-button{
+  margin: 1% 1% 6%;
+}
+.H3{
+  text-align: center;
+  font-family: 'Montserrat Black',sans-serif;
+  padding: 8% 18% 1%;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+#footer{
+    padding: 5% 5%;
+    text-align: center;
+    background-color: #fff;
+}
+.lastp{
+  padding: 1% 2% 2%;
+}
+.footi{
+  padding: 0 1% 0;
+}
